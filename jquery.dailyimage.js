@@ -36,8 +36,7 @@
 
 		return this.each(function () {
 			// -- Store the object
-			var $this = $(this),
-				that = this;
+			var $this = $(this);
 
 			// -- Replacer replaces the placeholder with the desired image
 			var replacer = function () {
